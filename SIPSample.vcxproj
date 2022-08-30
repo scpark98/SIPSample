@@ -242,7 +242,11 @@
     <ResourceCompile Include="SIPSample.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\x64\portsip_media.dll" />
+    <None Include="bin\x64\portsip_sdk.dll" />
     <None Include="bin\x64\SIPSample.exe" />
+    <None Include="bin\x86\portsip_media.dll" />
+    <None Include="bin\x86\portsip_sdk.dll" />
     <None Include="bin\x86\SIPSample.exe" />
     <None Include="res\SIPSample.rc2" />
   </ItemGroup>

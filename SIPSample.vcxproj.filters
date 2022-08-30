@@ -29,6 +29,18 @@
     <None Include="bin\x86\SIPSample.exe">
       <Filter>bin\x86</Filter>
     </None>
+    <None Include="bin\x64\portsip_media.dll">
+      <Filter>bin\x64</Filter>
+    </None>
+    <None Include="bin\x64\portsip_sdk.dll">
+      <Filter>bin\x64</Filter>
+    </None>
+    <None Include="bin\x86\portsip_media.dll">
+      <Filter>bin\x86</Filter>
+    </None>
+    <None Include="bin\x86\portsip_sdk.dll">
+      <Filter>bin\x86</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
