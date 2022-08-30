@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SIPSample.cpp" />
+    <ClCompile Include="SIPSampleDlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TransferDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="SIPSample.h" />
+    <ClInclude Include="SIPSampleDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TransferDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SIPSample.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SIPSample.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SIPSample.rc2" />
+    <None Include="bin\x64\SIPSample.exe">
+      <Filter>bin\x64</Filter>
+    </None>
+    <None Include="bin\x86\SIPSample.exe">
+      <Filter>bin\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bin">
+      <UniqueIdentifier>{9767aff6-8cd2-4b8e-8b92-1d9de6c3a801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\x86">
+      <UniqueIdentifier>{2358b7f3-e0f4-4c10-b53c-95cc080cb51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\x64">
+      <UniqueIdentifier>{cf18af23-2b89-4dab-825c-6879dc5e57a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{29f2186b-05d5-4cdd-8ef4-6d13c78b1e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\x86">
+      <UniqueIdentifier>{aaf2d21d-5c29-46cf-a0d5-d0f8964fcaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\x64">
+      <UniqueIdentifier>{2c96f90a-9c17-4a50-a1d0-fa4e8127d25b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\x64\portsip_sdk.lib">
+      <Filter>lib\x64</Filter>
+    </Library>
+    <Library Include="lib\x86\portsip_sdk.lib">
+      <Filter>lib\x86</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
